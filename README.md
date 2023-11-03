@@ -40,7 +40,7 @@ Admins create courses,and follow a guideline as stated by the ‘Course Model’
 * 'POST/create-new-course' = Creates a new course (Admins only)
 * 'GET/all-courses' = Shows all the courses available on the platform
 * 'GET/:id' = Shows the course whose id was given
-* 'PATCH/:id/subscribe' = Link for the student to subscribe to a particular course.
+* 'PATCH/:id/enroll' = Students can enroll for a particular course.
 
 
 
