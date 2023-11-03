@@ -19,6 +19,6 @@ router
 
 router.route("/:id").get(authenticateUser, getSingleCourse);
 
-router.route("/:id/subscribe").patch(authenticateUser, courseEnrollment);
+router.route("/:id/enroll").patch(authenticateUser, courseEnrollment);
 
 module.exports = router;
