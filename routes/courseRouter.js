@@ -21,4 +21,5 @@ router.route("/:id").get(authenticateUser, getSingleCourse);
 
 router.route("/:id/enroll").patch(authenticateUser, courseEnrollment);
 
+//testing this shiiiii
 module.exports = router;
